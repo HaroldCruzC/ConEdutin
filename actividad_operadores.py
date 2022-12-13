@@ -7,10 +7,18 @@ segundoNumero = int(input("ingresa el segundo número"))
 
 #resultados de las operaciones entre los números ingresados
 
-#Suma
+#suma de dos núemros de la manera chiva
+print(f"la suma de los dos números es :{primerNumero + segundoNumero}")
 
-print(primerNumero + segundoNumero)
+#Multiplicación de dos números de la manera chiva
+print(f"la multiplicación de los dos números es :{primerNumero * segundoNumero}")
 
-#Multiplicación
 
-print(primerNumero * segundoNumero)
+
+# Comparación de dos números, y de la manera chiva
+
+print(f"¿los números son iguales?: {primerNumero == segundoNumero}")
+
+print(f"¿El primer número es menor que el segundo?: {primerNumero < segundoNumero}")
+
+print(f"¿El segundo número es mayor o igual al primero?: {segundoNumero >= primerNumero}")

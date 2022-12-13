@@ -1,13 +1,14 @@
 # a = 5
 # b = 8
 
-#print ( a == b)
-#print ( a != b)
-#print ( a >= b)
-#print ( a <= b)
+#  print ( a == b)  ¿No iguales a y b?
+#  print ( a != b) ¿son distintos a y b?
+#  print ( a > b) ¿Esa  mayor que b?
+#  print ( a >= b) ¿Es a mayor o igual que b?
+#  print ( a < b) ¿Es a menor que b?
+#  print ( a <= b) ¿es a menor o igual que b?
 
 
-#print (a <= b)
 
 #Solicitud de datos al usuario
 

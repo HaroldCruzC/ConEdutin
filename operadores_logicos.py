@@ -1,3 +1,6 @@
 a = False
-b = True
+b = False
+
+print (a and b)
 print (not b)
+print (a or b)

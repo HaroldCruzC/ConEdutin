@@ -1,4 +1,4 @@
-numero = 4
+numero = 8
 
 #flujo de programa
 
@@ -14,5 +14,16 @@ numero = 4
 #numero = numero - 3
 
 
+#Esta es la forma corta de asignar un valor a una variable 
+
+#numero +=5
+
+#numero -=3
+
+#numero *= 10
+
+#numero /=4
+
+numero %=5
 print(numero)
 
