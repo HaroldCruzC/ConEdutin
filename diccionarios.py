@@ -31,8 +31,8 @@ print(diccionario_tercera_forma)
 
 inventario ={"Manazanas": 235, "Peras": 400, "Naranjas": 250, "Sandías": 500}
 
-#print(inventario.keys())
+#print(inventario.keys())   muestra las llaves del diccionario
 
-#print(inventario.values())
+#print(inventario.values())  muestra los valores del diccionario
 
-print(inventario.items())
+#print(inventario.items())   muestra el contenido del diccionario
