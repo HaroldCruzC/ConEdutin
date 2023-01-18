@@ -1,15 +1,14 @@
 class Persona:
     
-    def __init__(self,):
-        self.nombre=input("Ingrese el nombre: ")
-        self.edad =int(input("Ingrese la edad: "))
+    def __init__(self):
+        self.nombre = input("Ingrese el nombre: ")
+        #self.edad = int(input("Ingrese la edad: "))
         
     def imprimir(self):
         print("Nombre: " ,self.nombre)
-        print("Edad: " ,self.edad)
+        #print("Edad: " ,self.edad)
         
 class Ciudadano(Persona):
-    
     
     def __init__(self):
         super().__init__()
@@ -27,7 +26,7 @@ class Ciudadano(Persona):
             
     # Instancias
     
-    ciudadano1= Persona()
-    ciudadano1.imprimir()
-    ciudadano1.impuestos()
+    ciudadano = Persona()
+    ciudadano.imprimir()
+    ciudadano.impuestos()
     
