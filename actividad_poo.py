@@ -2,11 +2,11 @@ class Persona:
     
     def __init__(self):
         self.nombre = input("Ingrese el nombre: ")
-        #self.edad = int(input("Ingrese la edad: "))
+        self.edad = int(input("Ingrese la edad: "))
         
     def imprimir(self):
         print("Nombre: " ,self.nombre)
-        #print("Edad: " ,self.edad)
+        print("Edad: " ,self.edad)
         
 class Ciudadano(Persona):
     
@@ -26,7 +26,7 @@ class Ciudadano(Persona):
             
     # Instancias
     
-    ciudadano = Persona()
-    ciudadano.imprimir()
-    ciudadano.impuestos()
+ciudadano1= Ciudadano()
+ciudadano1.imprimir()
+ciudadano1.impuestos()
     
